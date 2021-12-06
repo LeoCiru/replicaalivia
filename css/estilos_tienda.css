@@ -1,0 +1,551 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body
+{
+    /* font-size: 16px; */
+    font-family: "Poppins", "Arial";
+}
+
+/* ----------HEADER---------- */
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    padding: 5px 0 15px 0;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+}
+
+header .logo-alivia-header { margin-left: 50px; }
+
+header nav a
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: #57A048;
+    margin: 0 20px;
+}
+
+header nav a:hover 
+{
+    color: #F4607A;
+    transition: all .3s ease;
+}
+
+header .sub-nav ul
+{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+header .sub-nav ul li
+{
+    font-weight: 500;
+    color: #57A048;
+    list-style: none;
+    margin: 0 15px;
+    font-size: 1.7em;
+}
+
+/* ---------- MAIN ---------- */
+main { padding-top: 87px; }
+
+main .cabecera-main
+{
+    background-image: url("../img/imgs_tienda/HBG-GREEN.jpg");
+    object-fit: contain;
+}
+
+main .cabecera-main .contenedor-contacto
+{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+main .cabecera-main .contenedor-contacto h1
+{
+    font-family: "Montserrat", "Arial";
+    font-size: 2.1875rem;
+    font-weight: 700;
+    color: #fff;
+    /* margin-bottom: 40px; */
+    line-height: 4.3125rem;
+    letter-spacing: 1.8px;
+}
+
+main .contenedor-h2
+{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .contenedor-h2 .divisor-1,
+main .contenedor-h2 .divisor-2
+{
+    width: 26.5%;
+    border-top: 3px double #F57474;
+    margin: 0 20px;
+}
+
+main .contenedor-h2 h2
+{
+    font-family: "Poppins", "Arial";
+    font-size: 2.0625rem;
+    font-weight: 600;
+    line-height: 42.6px;
+    color: #F57474;
+    text-align: center;
+}
+
+main .planes .contenedor-h2
+{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+main .contenedor-cards-planes
+{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+main .contenedor-cards-planes .card-planes
+{
+    width: 30%;
+    padding: 35px;
+    border: 2px solid #D6D6D6;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #D6D6D6;
+    background-color: #F2F2F2;
+}
+
+main .contenedor-cards-planes .card-planes .divisor-card-planes
+{
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #D6D6D6;
+    display: block;
+}
+
+main .contenedor-cards-planes .card-planes .header-card-planes
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+main .contenedor-cards-planes .card-planes .header-card-planes img
+{
+    width: 80px;
+    height: 80px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+main .contenedor-cards-planes .card-planes .header-card-planes h4
+{
+    font-family: "Montserrat", "Arial";
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #57a048;
+    line-height: 42px;
+    letter-spacing: 1.4px;
+}
+
+main .contenedor-cards-planes .card-planes .main-card-planes ul { margin: 15px 0; }
+main .contenedor-cards-planes .card-planes .main-card-planes ul li
+{
+    display: flex;
+    list-style: none;
+    font-family: "Poppins", "Arial";
+    font-size: 1.0625rem;
+    color: #5F727F;
+    line-height: 25px;
+    padding: 15px 0;
+}
+
+main .contenedor-cards-planes .card-planes .main-card-planes ul li i
+{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.5rem;
+    content: "\f058";
+    color: #5F727F;
+    margin-right: 30px;
+}
+
+main .contenedor-cards-planes .card-planes .precio
+{
+    text-align: center;
+    font-family: "Montserrat", "Arial";
+    font-size: 1.25rem;
+    line-height: 53px;
+    letter-spacing: 1px;
+    color: #54595F;
+    margin: 25px 0;
+}
+
+main .contenedor-cards-planes .card-planes .card-boton
+{
+    display: flex;
+    justify-content: center;
+}
+
+main .contenedor-cards-planes .card-planes .card-boton button
+{
+    background-color: #D54646;
+    padding: 20px 65px;
+    border-radius: 10px;
+    font-family: "Poppins", "Arial";
+    font-size: 0.9375rem;
+    line-height: 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+main .productos .contenedor-productos
+{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 150px 0;
+}
+
+main .productos .contenedor-productos .contenedor-cards-productos
+{
+    display: flex;
+    gap: 20px;
+}
+
+main .productos .contenedor-productos .cards-productos
+{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 28px;
+    border: 2px solid transparent;
+    transition: all .3s ease;
+    cursor: pointer;
+    max-height: 475px;
+}
+main .productos .contenedor-productos .cards-productos:hover { box-shadow: 0 0 20px rgb(228, 220, 220); }
+
+main .productos .contenedor-productos .cards-productos.cards-productos.vitamina-c { background-color: #FFFBF6; }
+main .productos .contenedor-productos .cards-productos.cards-productos.vitamina-e { background-color: #F8FAF4; }
+main .productos .contenedor-productos .cards-productos.cards-productos.zinc { background-color: #FAF7F5; }
+
+main .productos .contenedor-productos .cards-productos.cards-productos.vitamina-c:hover { border: 2px solid #D6A62E; }
+main .productos .contenedor-productos .cards-productos.cards-productos.vitamina-e:hover { border: 2px solid #57A049; }
+main .productos .contenedor-productos .cards-productos.cards-productos.zinc:hover { border: 2px solid #351431; }
+
+main .productos .contenedor-productos .cards-productos:hover .texto-productos p,
+main .productos .contenedor-productos .cards-productos:hover .texto-productos span
+{
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: all .2s ease .1s;
+}
+
+main .productos .contenedor-productos .cards-productos:hover .texto-productos h5
+{
+    transform: translateY(-30px);
+    opacity: 0;
+    transition: all .2s ease .2s;
+}
+
+main .productos .contenedor-productos .cards-productos a
+{
+    text-decoration: none;
+    background-color: #fff;
+    color: #57A048;
+    border: 2px solid #57A048;
+    padding: 10px 20px;
+    font-family: "Poppins", "Arial";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(360px);
+    position: absolute;
+}
+
+main .productos .contenedor-productos .cards-productos:hover a
+{
+    transform: translateY(350px);
+    opacity: 1;
+    transition: all .2s ease .3s;
+}
+
+main .productos .contenedor-productos .cards-productos img
+{
+    vertical-align: top;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+main .productos .contenedor-productos .cards-productos .texto-productos > p
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+main .productos .contenedor-productos .cards-productos.vitamina-c .texto-productos > p { color: #D6A62E; }
+main .productos .contenedor-productos .cards-productos.vitamina-e .texto-productos > p { color: #57A049; }
+main .productos .contenedor-productos .cards-productos.zinc .texto-productos > p { color: #351431; }
+
+main .productos .contenedor-productos .cards-productos .texto-productos > h5
+{
+    font-family: "Poppins", "Arial";
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+main .productos .contenedor-productos .cards-productos.vitamina-c .texto-productos > h5 { color: #D6A62E; }
+main .productos .contenedor-productos .cards-productos.vitamina-e .texto-productos > h5 { color: #57A049; }
+main .productos .contenedor-productos .cards-productos.zinc .texto-productos > h5 { color: #351431; }
+
+main .productos .contenedor-productos .cards-productos .texto-productos p span
+{
+    margin: auto;
+    font-size: 1.0625rem;
+    color: #4A4A4A;
+    line-height: 25px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+/* ---------- FOOTER ---------- */
+footer
+{
+    border-top: 4px solid #57a048;
+    background-color: #F9F9F9;
+}
+
+footer .contenedor-footer
+{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0 20px 0;
+    justify-content: space-between;
+}
+
+footer .contenedor-footer .info-descripcion { width: 30%; }
+
+footer .contenedor-footer .info-descripcion img
+{
+    vertical-align: top;
+    width: 138px;
+    margin-bottom: 20px;
+}
+
+footer .contenedor-footer .info-descripcion p
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    color: #1A5E63;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+footer .contenedor-footer .info-descripcion p > span
+{
+    font-weight: 600;
+    margin: 30px 0 20px 0;
+    display: inline-block;
+    width: 60%;
+}
+
+footer .contenedor-footer .info-descripcion input[type="email"]
+{
+    padding: 10px 40px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #818A91;
+    background-color: #fff;
+    outline: none;
+    margin-bottom: 10px;
+}
+footer .contenedor-footer .info-descripcion input[type="email"]::placeholder
+{
+    font-family: "Poppins", Arial;
+    font-size: .95rem;
+    color: #87898A;
+}
+
+footer .contenedor-footer .info-descripcion a
+{
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Poppins", "Arial";
+    font-weight: 400;
+    font-size: 0.9375;
+    line-height: 15px;
+    background-color: #57A049;
+    padding: 15px 40px;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+footer .contenedor-footer .info-descripcion a:hover { background-color: #F46464; }
+
+footer .contenedor-footer .contacto
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+footer .contenedor-footer .contacto h5
+{
+    font-family: "Poppins", "Arial";
+    font-size: 1.5625rem;
+    font-weight: 500;
+    line-height: 37.5px;
+    color: #1A5E63;
+    padding-bottom: 5px;
+}
+
+footer .contenedor-footer .contacto .linea
+{
+    width: 120px;
+    height: 3px;
+    background-color: #57A048;
+    margin-bottom: 20px;
+}
+
+footer .contenedor-footer .contacto span { margin-bottom: 20px; }
+
+footer .contenedor-footer .contacto span  a
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #1D6065;
+    line-height: 27px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+footer .contenedor-footer .contacto .direccion { width: 75%; }
+
+footer .contenedor-footer .contacto span a:hover { color: #E55056; }
+
+footer .contenedor-footer .contacto .siguenos h6
+{
+    font-family: "Poppins", "Arial";
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: #1D6065;
+    line-height: 25.5px;
+    margin-bottom: 5px;
+}
+
+footer .contenedor-footer .contacto .siguenos span i
+{
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #57A049;
+    color: #57A049;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+footer .contenedor-footer .contacto .siguenos span i:hover
+{
+    color: #fff;
+    background-color: #57A049;
+}
+
+footer .contenedor-footer .informacion h5
+{
+    font-family: "Poppins", "Arial";
+    font-size: 1.5625rem;
+    font-weight: 500;
+    line-height: 37.5px;
+    color: #1A5E63;
+    padding-bottom: 5px;
+}
+
+footer .contenedor-footer .informacion .linea
+{
+    width: 155px;
+    height: 3px;
+    background-color: #57A048;
+    margin-bottom: 20px;
+}
+
+footer .contenedor-footer .informacion ul li
+{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer .contenedor-footer .informacion ul li a
+{
+    text-decoration: none;
+    color: #1D6065;
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 27px;
+    transition: all .3s ease;
+}
+footer .contenedor-footer .informacion ul li a:hover { color: #E55056; }
+
+footer .contenedor-footer .informacion img
+{
+    vertical-align: top;
+    width: 300px;
+}
+
+footer .pie-pagina
+{
+    background-color: #57A048;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    line-height: 21px;
+    font-weight: 400;
+}

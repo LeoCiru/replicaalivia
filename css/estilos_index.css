@@ -1,0 +1,1486 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-size: 16px;
+    font-family: "Poppins", "Arial";
+    overflow-x:hidden;
+}
+
+
+/* ----------HEADER---------- */
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    padding: 5px 0 15px 0;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+}
+
+header .logo-alivia-header { margin-left: 50px; }
+
+header nav a
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: #57A048;
+    margin: 0 20px;
+}
+
+header nav a:hover 
+{
+    color: #F4607A;
+    transition: all .3s ease;
+}
+
+
+header .sub-nav ul
+{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+header .sub-nav ul li
+{
+    font-weight: 500;
+    color: #57A048;
+    list-style: none;
+    margin: 0 15px;
+    font-size: 1.7em;
+}
+
+/* ----------MAIN---------- */
+main { padding-top: 87px; }
+
+/* ---------- Planes alimenticios ---------- */
+main .planes-alimenticios
+{
+    background-color: #EAF4EC;
+    padding-bottom: 30px;
+}
+
+main .planes-alimenticios .contenedor
+{
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+    width: 90%;
+    max-width: 1180px;
+    margin: auto;
+}
+
+main .planes-alimenticios .texto-planes-alimenticios
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+main .texto-planes-alimenticios h1
+{
+    color: #57A048;
+    font-size: 3.12em;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+main .texto-planes-alimenticios h1 span { color: #1A5E63;}
+
+main .texto-planes-alimenticios p
+{
+    font-weight: 600;
+    color: #1A5E63;
+    margin-bottom: 30px;
+}
+
+main .texto-planes-alimenticios a
+{
+    text-decoration: none;
+    font-family: "Roboto", "Arial";
+    font-size: 1.06em;
+    padding: 15px 20px;
+    border-radius: 100px;
+    background-color: #57A048;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+}
+
+main .texto-planes-alimenticios a:hover { background-color: #F46060; }
+
+main .planes-alimenticios .doctor-principal{ width: 50%; }
+
+main .planes-alimenticios .doctor-principal img
+{
+    width: 100%;
+    vertical-align: top;
+}
+
+/* ---------- Descargar plan ---------- */
+main .descargar-plan
+{
+    background-image: url(../img/imgs_index/Group-192.png);
+    object-fit: cover;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+main .descargar-plan h5
+{
+    padding: 40px 0;
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 0.8px;
+}
+
+main .descargar-plan a
+{
+    background-color: #fff;
+    padding: 15px 40px;
+    border-radius: 100px;
+    font-size: 0.87em;
+    text-decoration: none;
+    color: #57A048;
+}
+
+main .descargar-plan a:hover
+{
+    color: #fff;
+    background-color: #57A048;
+    transition: all .3s ease;
+}
+
+/* ---------- Contenedor beneficios ---------- */
+main .contenedor-beneficios
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1180px;
+    margin: auto;
+}
+
+main .contenedor-beneficios h2
+{
+    font-weight: 600;
+    font-size: 2.19em;
+    color: #57A048;
+    text-align: center;
+    letter-spacing: 1.8px;
+    margin-bottom: 30px;
+}
+
+main .contenedor-beneficios .beneficios
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .contenedor-beneficios .beneficios .beneficio
+{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    /* margin-right: 15px; */
+    margin-bottom: 50px;
+    align-items: stretch;
+}
+
+main .contenedor-beneficios .beneficios .beneficio .contenedor-imagen-beneficio
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .contenedor-beneficios .beneficios .beneficio img
+{ 
+    transform: scale(.7);
+    /* margin-right: 40px; */
+    padding-right: 10px;
+    vertical-align: top;object-fit: contain;
+
+}
+
+main .contenedor-beneficios .beneficios .beneficio .texto-beneficio { width: 100%; margin-left: 10px;}
+
+main .contenedor-beneficios .beneficios .beneficio .texto-beneficio h4
+{
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+main .contenedor-beneficios .beneficios .uno .texto-beneficio h4 { color: #48B7E4;}
+main .contenedor-beneficios .beneficios .dos .texto-beneficio h4 { color: #F46060;}
+main .contenedor-beneficios .beneficios .tres .texto-beneficio h4 { color: #08B2E3;}
+main .contenedor-beneficios .beneficios .cuatro .texto-beneficio h4 { color: #57A048;}
+main .contenedor-beneficios .beneficios .cinco .texto-beneficio h4 { color: #F7AA2F;}
+main .contenedor-beneficios .beneficios .seis .texto-beneficio h4 { color: #1A5E63;}
+
+main .contenedor-beneficios .beneficios .beneficio .texto-beneficio p
+{
+    font-size: 0.94em;
+    line-height: 22.5px;
+    text-align: left;
+}
+
+main .contenedor-nos-has-visto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .contenedor-nos-has-visto h5
+{
+    color: #1A5E63;
+    font-size: 1.44em;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    margin-bottom: 50px;
+}
+
+main .contenedor-nos-has-visto .canales
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+main .contenedor-nos-has-visto .canales img
+{
+    width: 16%;
+    object-fit: contain;
+    padding: 30px;
+    vertical-align: top;
+}
+
+/* ---------- Doctores certificados ---------- */
+main .doctores-certificados { background-color: #E9F0E7; }
+
+main .doctores-certificados .contenedor-doctores-certificados
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*     width: 90%;
+    max-width: 1180px;
+    margin: auto; */
+}
+
+main .doctores-certificados .contenedor-doctores-certificados .texto-doctores-certificados
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .doctores-certificados .contenedor-doctores-certificados .texto-doctores-certificados h2
+{
+    color: #57A048;
+    font-size: 2.185em;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    line-height: 30px;
+    margin: 100px 0 25px 0;
+}
+
+main .doctores-certificados .contenedor-doctores-certificados .texto-doctores-certificados h2 span { color: #1A5E63; }
+
+main .doctores-certificados .contenedor-doctores-certificados .texto-doctores-certificados p
+{
+    width: 45%;
+    text-align: center;
+    font-size: .9375em;
+    line-height: 22.5px;
+    color: #1A5E63;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+main .doctores-certificados .card-dr-certificado
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    /* padding: 75px 150px; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(179, 178, 178);
+    margin-bottom: 100px;
+    max-width: 700px;
+    width: 600px;
+    max-height: 500px;
+    height: 400px;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+main .doctores-certificados .card-dr-certificado .swiper-slide
+{
+    width: 400px;
+    margin: auto;
+    height: 100vh;
+    padding-top: 10%;
+    vertical-align: middle;
+}
+
+main .doctores-certificados .card-dr-certificado img
+{
+    transform: scale(.8);
+    /* margin-bottom: 30px; */
+    /* z-index: 9; */
+}
+
+main .doctores-certificados .card-dr-certificado h4
+{
+    color: #1A5E63;
+    font-size: 1.5em;
+    line-height: 28.8px;
+    letter-spacing: 1.2px;
+    /* z-index: 9; */
+}
+
+main .doctores-certificados .card-dr-certificado .dr-certificado-profesion
+{
+    margin: 5px 0 5px 0;
+    font-size: .875em;
+    line-height: 21px;
+    color: #1A5E63;
+    font-weight: 500;
+    /* z-index: 9; */
+}
+
+main .doctores-certificados .card-dr-certificado .dr-certificado-descripcion
+{
+    font-size: .875em;
+    line-height: 21px;
+    color: #1A5E63;
+    font-weight: 500;
+    /* z-index: 9; */
+    margin-bottom: 500px;
+}
+
+/* ---------- Sobre nosotros ---------- */
+main .sobre-nosotros
+{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 1180px;
+    margin: 100px auto;
+}
+
+main .sobre-nosotros .texto-sobre-nosotros
+{
+    width: 50%;
+    text-align: justify;
+    padding: 30px;
+}
+
+main .sobre-nosotros .texto-sobre-nosotros h2
+{
+    color: #57A048;
+    font-size: 2.1875em;
+    line-height: 30px;
+    letter-spacing: 1.8px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+main .sobre-nosotros .texto-sobre-nosotros p
+{
+    font-size: 1em;
+    line-height: 24px;
+    font-weight: 500;
+    color: #1A5E63;
+}
+
+main .sobre-nosotros .imagen-sobre-nosotros
+{
+    width: 50%;
+    padding: 30px;
+}
+
+main .sobre-nosotros .imagen-sobre-nosotros img
+{
+    vertical-align: top;
+    width: 100%;
+}
+
+/* ---------- Qué ofrecemos ---------- */
+main .que-ofrecemos
+{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 1180px;
+    margin: 100px auto;
+}
+
+main .que-ofrecemos .imagen-que-ofrecemos
+{
+    width: 50%;
+    padding: 30px;
+}
+
+main .que-ofrecemos .imagen-que-ofrecemos img
+{
+    width: 100%;
+    vertical-align: top;
+}
+
+main .que-ofrecemos .texto-que-ofrecemos
+{
+    width: 50%;
+    padding: 30px;
+}
+
+main .que-ofrecemos .texto-que-ofrecemos h4
+{
+    color: #1A5E63;
+    font-size: 1.875em;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+main .que-ofrecemos .texto-que-ofrecemos p
+{
+    color: #1A5E63;
+    font-size: 1em;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+main .que-ofrecemos .texto-que-ofrecemos .redes-sociales-que-ofrecemos { font-size: 40px; }
+main .que-ofrecemos .texto-que-ofrecemos .redes-sociales-que-ofrecemos a .fb { color: #1877f2; }
+main .que-ofrecemos .texto-que-ofrecemos .redes-sociales-que-ofrecemos a .ig { color: #c13584; }
+main .que-ofrecemos .texto-que-ofrecemos .redes-sociales-que-ofrecemos a .yt { color: #ff0000; }
+main .que-ofrecemos .texto-que-ofrecemos .redes-sociales-que-ofrecemos a:hover { opacity: .9; }
+
+main .que-ofrecemos .texto-que-ofrecemos .contacto-que-ofrecemos
+{
+    display: flex;
+    flex-direction: column;
+}
+
+main .que-ofrecemos .texto-que-ofrecemos .contacto-que-ofrecemos a
+{
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+}
+main .que-ofrecemos .texto-que-ofrecemos .contacto-que-ofrecemos .correo { color: #1A5E63; }
+main .que-ofrecemos .texto-que-ofrecemos .contacto-que-ofrecemos .correo:hover
+{
+    color: #F46060;
+    text-decoration: underline;
+}
+
+main .que-ofrecemos .texto-que-ofrecemos .contacto-que-ofrecemos .telefono
+{
+    color: #fff;
+    background-color: #57A048;
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 100px;
+}
+
+main .que-ofrecemos .texto-que-ofrecemos .contacto-que-ofrecemos .telefono:hover
+{
+    background-color: #F46060;
+    transition: all .3s ease;
+}
+
+/* ---------- Cards ---------- */
+main .cards
+{
+    width: 90%;
+    max-width: 1180px;
+    margin: 100px auto 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .cards .card
+{
+    width: 49%;
+    padding: 40px 40px 0 40px;
+    box-shadow: 0px 8px 15px rgb(156, 156, 156);
+    /* margin-right: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main .cards .clara
+{
+    background-color: #57A048;
+    border-radius: 25px;
+    color: #fff;
+}
+
+main .cards .clara h4
+{
+    font-size: 1.436em;
+    letter-spacing: 1.2px;
+    line-height: 38.4px;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+main .cards .clara p
+{
+    font-size: 0.9375em;
+    line-height: 22.5px;
+}
+
+main .cards .clara .rayo-card
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main .cards .clara .rayo-card img
+{
+    transform: scale(.8);
+    opacity: .5;
+    vertical-align: top;
+}
+
+main .cards .oscura
+{
+    background-color: #1A5E63;
+    border-radius: 25px;
+    color: #fff;
+}
+
+main .cards .oscura h4
+{
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.9px;
+    margin-bottom: 15px;
+}
+
+main .cards .oscura .card-listas
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .cards .oscura .card-listas ul { margin-right: 30px; }
+
+main .cards .oscura .card-listas ul li
+{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+main .cards .oscura .corazon-card
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main .cards .oscura .corazon-card img
+{
+    transform: scale(.8);
+    opacity: .5;
+    vertical-align: top;
+}
+
+/* ---------- IMC ---------- */
+main .imc
+{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .imc .animacion-imc { width: 50%; }
+main .imc .animacion-imc img
+{
+    width: 100%;
+    transform: scale(.65);
+}
+
+main .imc .contenido-imc
+{
+    width: 50%;
+}
+
+main .imc .contenido-imc h2
+{
+    font-family: "Poppins", "Arial";;
+    font-size: 2.19rem;
+    color: #57A048;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+main .imc .contenido-imc h2 span { color: #1A5E63; }
+main .imc .contenido-imc p
+{
+    color: #1A5E63;
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+main .imc .contenido-imc form
+{
+    background-color: #F8F8F8;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+main .imc .contenido-imc form .altura
+{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+main .imc .contenido-imc form .altura input[type="number"]
+{
+    width: 40%;
+}
+
+main .imc .contenido-imc form .altura input[type="number"]
+{
+    background: none;
+    outline: none;
+    border: 1px solid #DDDDDD;
+    background-color: #FFF;
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+}
+
+main .imc .contenido-imc form .altura span
+{
+    background-color: #DDDDDD;
+    padding: 8px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    line-height: 14px;
+    color: #666666;
+    font-weight: bold;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #DDDDDD;
+}
+
+main .imc .contenido-imc form .peso input[type="number"] { width: 90%; }
+
+main .imc .contenido-imc form .peso input[type="number"]
+{
+    background: none;
+    outline: none;
+    border: 1px solid #DDDDDD;
+    background-color: #FFF;
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+}
+
+main .imc .contenido-imc form .peso span
+{
+    background-color: #DDDDDD;
+    padding: 8px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    line-height: 14px;
+    color: #666666;
+    font-weight: bold;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #DDDDDD;
+}
+
+main .imc .contenido-imc form label h6
+{
+    color: #57A048;
+    font-size: 0.875rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+main .imc .contenido-imc form .resultado
+{
+    width: 90%;
+    /* background-color: red; */
+    border-radius: 5px;
+    height: auto;
+    opacity: 0;
+    position: absolute;
+    margin: 15px auto 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .imc .contenido-imc form .resultado > p
+{
+    color: white;
+    display: block;
+    margin: 0;
+}
+
+main .imc .contenido-imc form .resultado span
+{
+    font-weight: bold;
+    /* color: white; */
+    display: block;
+}
+
+/* main .imc .contenido-imc form .contenedor-botones-imc
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+} */
+
+main .imc .contenido-imc form .reset-imc/* ,
+main .imc .contenido-imc form .calcular-imc */
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+main .imc .contenido-imc form input[type="reset"]/* ,
+main .imc .contenido-imc form input[type="button"] */
+{
+    width: 200px;
+    background: none;
+    background-color: #57A048;
+    padding: 5px;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 0.875rem;
+    line-height: 20px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+main .imc .contenido-imc form input[type="reset"]:hover/* ,
+main .imc .contenido-imc form input[type="button"]:hover */
+{ background-color: #F46060; }
+
+main .imc .contenido-imc .titulo-tabla-imc
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 18px;
+    color: #57A048;
+    display: block;
+    padding: 10px;
+    background-color: #D7F6D1;
+    border-radius: 3px 3px 0 0;
+    cursor: pointer;
+}
+
+main .imc .contenido-imc .tabla-imc table
+{
+    width: 100%;
+    border: 2px solid #D7F6D1;
+    border-collapse: collapse;
+    display: none;
+}
+
+main .imc .contenido-imc .tabla-imc table thead th
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    line-height: 21px;
+    font-weight: 500;
+    color: #57A048;
+    padding: 5px;
+}
+main .imc .contenido-imc .tabla-imc table tbody tr td
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    line-height: 21px;
+    font-weight: 300px;
+    color: #000;
+    border: 2px solid #D7F6D1;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+main .imc .contenido-imc .tabla-imc table tbody .inferior { background-color: #F8D7DA; }
+main .imc .contenido-imc .tabla-imc table tbody .normal { background-color: #D1E7DD; }
+main .imc .contenido-imc .tabla-imc table tbody .superior { background-color: #FFF3CD; }
+main .imc .contenido-imc .tabla-imc table tbody .obesidad { background-color: #F8D7DA; }
+
+
+/* ---------- Resultados pacientes ---------- */
+main .resultados-pacientes
+{
+    background-color: #FCFCFC;
+    padding-bottom: 125px;
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+main .resultados-pacientes h2
+{
+    font-size: 2.1875rem;
+    font-family: "Poppins", "Arial";
+    line-height: 30px;
+    letter-spacing: 1.8px;
+    font-weight: 600;
+    color: #57A048;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 15px;
+}
+
+main .resultados-pacientes .p-descripcion
+{
+    margin: auto;
+    text-align: center;
+    width: 45%;
+    font-size: 0.875rem;
+    font-family: "Poppins", "Arial";
+    font-weight: 500;
+    color: #1A5E63;
+    line-height: 21px;
+    margin-bottom: 50px;
+}
+
+main .resultados-pacientes .resultados
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main .resultados-pacientes .resultado
+{
+    width: 28%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 20px 25px 20px;
+    /* border: 25px solid #fff; */
+    border-radius: 20px;
+    box-shadow: 5px 5px 80px #c5c5c5;
+}
+
+main .resultados-pacientes .resultado img
+{
+    width: 100%;
+    vertical-align: top;
+}
+
+main .resultados-pacientes .resultado p
+{
+    font-family: "Poppins", "Arial";
+    font-weight: 700;
+    font-size: 0.9375rem;
+    color: #1A5E63;
+    letter-spacing: 0.8px;
+    line-height: 1.5px;
+    margin-top: 20px;
+}
+
+/* ---------- Testimonios ---------- */
+main .testimonios
+{
+    background-image: url(../img/imgs_index/testimonials-bg-scaled.jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .testimonios .titulo-testimonios
+{
+    /* margin-top: 110px; */
+    font-family: "Poppins", "Arial";
+    font-size: 1.875rem;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    text-align: center;
+    /* margin-bottom: 50px; */
+    /* display: inline-block;
+    margin: 110px auto 50px auto; */
+}
+
+main .testimonios .titulo-testimonios h2
+{
+    display: inline-block;
+    margin: 110px auto 50px auto;
+}
+
+main .testimonios .contenedor-testimonios
+{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 50px 0;
+}
+
+main .testimonios .contenedor-testimonios .swiper-slide
+{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+}
+
+main .testimonios .contenedor-testimonios .swiper-slide img
+{
+    transform: scale(.8);
+    vertical-align: top;
+}
+
+main .testimonios .contenedor-testimonios .swiper-slide p
+{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", "Arial";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+main .testimonios .contenedor-testimonios .swiper-slide h6
+{
+    margin-top: 25px;
+    color: #FFE098;
+    font-weight: 600;
+    font-family: "Poppins", "Arial";
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+/* ---------- Planes ---------- */
+main .planes { background-color: #F9F9F9; }
+
+main .contenedor-planes
+{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 0 200px 0;
+}
+
+main .contenedor-planes .texto-planes
+{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .contenedor-planes .texto-planes h2
+{
+    font-family: "Poppins", "Arial";
+    font-size: 2.1875rem;
+    color: #57A048;
+    line-height: 42px;
+    letter-spacing: 1.8px;
+    font-weight: 600;
+    width: 70%;
+    margin-bottom: 20px;
+}
+main .contenedor-planes .texto-planes h2 span { color: #1A5E63; }
+
+main .contenedor-planes .texto-planes p
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #1A5E63;
+    width: 90%;
+    margin-bottom: 150px;
+}
+
+main .planes .contenedor-cards-planes
+{
+    display: flex;
+    gap: 2.50rem;
+/*     position: relative;
+    z-index: 1; */
+}
+
+main .planes .contenedor-cards-planes .cards-planes
+{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid rgba(26,94,99,.5);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 8;
+}
+
+main .planes .contenedor-cards-planes .cards-planes img
+{
+    width: 120px;
+    position: absolute;
+    top: -65px;
+    z-index: 9;
+}
+
+main .planes .contenedor-cards-planes .cards-planes h3
+{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-family: "Montserrat", "Arial";
+    font-size: 1.8125rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 34.8px;
+    color: #57A048;
+}
+
+main .planes .contenedor-cards-planes .cards-planes p
+{
+    font-family: "Poppins", "Arial";
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #1A5E63;
+    margin-bottom: 40px;
+}
+
+main .planes .contenedor-cards-planes .cards-planes .divisor
+{
+    width: 100px;
+    border: 1px solid #57a048;
+    margin-bottom: 40px;
+}
+
+main .planes .contenedor-cards-planes .cards-planes ul li
+{
+    list-style: none;
+    font-family: "Poppins", "Arial";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    color: #1A5E63;
+    margin-bottom: 8px;
+}
+main .planes .contenedor-cards-planes .cards-planes ul li i { margin-right: 15px; }
+
+main .planes .contenedor-cards-planes .cards-planes a
+{
+    margin-top: 40px;
+    font-family: "Poppins", "Arial";
+    font-size: 1.0625rem;
+    line-height: 25.5px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #57a048;
+    padding: 10px 30px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+main .planes .contenedor-cards-planes .cards-planes a:hover { background-color: #F46060;}
+
+main .planes .contenedor-cards-planes .cards-planes.silver
+{
+    transform: translateY(-30px);
+    background-color: #1A5E63;
+}
+main .planes .contenedor-cards-planes .cards-planes.silver h3{ color: #fff; }
+main .planes .contenedor-cards-planes .cards-planes.silver p{ color: #fff; }
+main .planes .contenedor-cards-planes .cards-planes.silver li{ color: #fff; }
+main .planes .contenedor-cards-planes .cards-planes.silver a{ color: #fff; }
+
+/* ---------- Suplementos ---------- */
+main .suplementos .contenedor-suplementos
+{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0 150px 0;
+}
+
+main .suplementos .contenedor-suplementos h2
+{
+    font-family: "Poppins", "Arial";
+    font-size: 2.1875rem;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    line-height: 30px;
+    color: #57A048;
+    margin-bottom: 20px;
+}
+
+main .suplementos .contenedor-suplementos > p
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.9375;
+    font-weight: 500;
+    line-height: 22.5px;
+    color: #1A5E63;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+main .suplementos .contenedor-suplementos .contenedor-cards-suplementos
+{
+    display: flex;
+    gap: 20px;
+}
+
+main .suplementos .contenedor-suplementos .cards-suplementos
+{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 28px;
+    border: 2px solid transparent;
+    transition: all .3s ease;
+    cursor: pointer;
+    max-height: 450px;
+}
+main .suplementos .contenedor-suplementos .cards-suplementos:hover { box-shadow: 0 0 20px rgb(228, 220, 220); }
+
+main .suplementos .contenedor-suplementos .cards-suplementos.cards-suplementos.vitamina-c { background-color: #FFFBF6; }
+main .suplementos .contenedor-suplementos .cards-suplementos.cards-suplementos.vitamina-e { background-color: #F8FAF4; }
+main .suplementos .contenedor-suplementos .cards-suplementos.cards-suplementos.zinc { background-color: #FAF7F5; }
+
+main .suplementos .contenedor-suplementos .cards-suplementos.cards-suplementos.vitamina-c:hover { border: 2px solid #D6A62E; }
+main .suplementos .contenedor-suplementos .cards-suplementos.cards-suplementos.vitamina-e:hover { border: 2px solid #57A049; }
+main .suplementos .contenedor-suplementos .cards-suplementos.cards-suplementos.zinc:hover { border: 2px solid #351431; }
+
+main .suplementos .contenedor-suplementos .cards-suplementos:hover .texto-suplementos p
+{
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: all .2s ease .1s;
+}
+
+main .suplementos .contenedor-suplementos .cards-suplementos:hover .texto-suplementos h5
+{
+    transform: translateY(-30px);
+    opacity: 0;
+    transition: all .2s ease .2s;
+}
+
+main .suplementos .contenedor-suplementos .cards-suplementos a
+{
+    text-decoration: none;
+    background-color: #fff;
+    color: #57A048;
+    border: 2px solid #57A048;
+    padding: 10px 20px;
+    font-family: "Poppins", "Arial";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(360px);
+    position: absolute;
+}
+
+main .suplementos .contenedor-suplementos .cards-suplementos:hover a
+{
+    transform: translateY(325px);
+    opacity: 1;
+    transition: all .2s ease .3s;
+}
+
+main .suplementos .contenedor-suplementos .cards-suplementos img
+{
+    vertical-align: top;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+main .suplementos .contenedor-suplementos .cards-suplementos .texto-suplementos > p
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+main .suplementos .contenedor-suplementos .cards-suplementos.vitamina-c .texto-suplementos > p { color: #D6A62E; }
+main .suplementos .contenedor-suplementos .cards-suplementos.vitamina-e .texto-suplementos > p { color: #57A049; }
+main .suplementos .contenedor-suplementos .cards-suplementos.zinc .texto-suplementos > p { color: #351431; }
+
+main .suplementos .contenedor-suplementos .cards-suplementos .texto-suplementos > h5
+{
+    font-family: "Poppins", "Arial";
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+main .suplementos .contenedor-suplementos .cards-suplementos.vitamina-c .texto-suplementos > h5 { color: #D6A62E; }
+main .suplementos .contenedor-suplementos .cards-suplementos.vitamina-e .texto-suplementos > h5 { color: #57A049; }
+main .suplementos .contenedor-suplementos .cards-suplementos.zinc .texto-suplementos > h5 { color: #351431; }
+
+/* ---------- FOOTER ---------- */
+footer
+{
+    border-top: 4px solid #57a048;
+    background-color: #F9F9F9;
+}
+
+footer .contenedor-footer
+{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0 20px 0;
+    justify-content: space-between;
+}
+
+footer .contenedor-footer .info-descripcion { width: 30%; }
+
+footer .contenedor-footer .info-descripcion img
+{
+    vertical-align: top;
+    width: 138px;
+    margin-bottom: 20px;
+}
+
+footer .contenedor-footer .info-descripcion p
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    color: #1A5E63;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+footer .contenedor-footer .info-descripcion p > span
+{
+    font-weight: 600;
+    margin: 30px 0 20px 0;
+    display: inline-block;
+    width: 60%;
+}
+
+footer .contenedor-footer .info-descripcion input[type="email"]
+{
+    padding: 10px 40px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #818A91;
+    background-color: #fff;
+    outline: none;
+    margin-bottom: 10px;
+}
+footer .contenedor-footer .info-descripcion input[type="email"]::placeholder
+{
+    font-family: "Poppins", Arial;
+    font-size: .95rem;
+    color: #87898A;
+}
+
+footer .contenedor-footer .info-descripcion a
+{
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Poppins", "Arial";
+    font-weight: 400;
+    font-size: 0.9375;
+    line-height: 15px;
+    background-color: #57A049;
+    padding: 15px 40px;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+footer .contenedor-footer .info-descripcion a:hover { background-color: #F46464; }
+
+footer .contenedor-footer .contacto
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+footer .contenedor-footer .contacto h5
+{
+    font-family: "Poppins", "Arial";
+    font-size: 1.5625rem;
+    font-weight: 500;
+    line-height: 37.5px;
+    color: #1A5E63;
+    padding-bottom: 5px;
+}
+
+footer .contenedor-footer .contacto .linea
+{
+    width: 120px;
+    height: 3px;
+    background-color: #57A048;
+    margin-bottom: 20px;
+}
+
+footer .contenedor-footer .contacto span { margin-bottom: 20px; }
+
+footer .contenedor-footer .contacto span  a
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #1D6065;
+    line-height: 27px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+footer .contenedor-footer .contacto .direccion { width: 75%; }
+
+footer .contenedor-footer .contacto span a:hover { color: #E55056; }
+
+footer .contenedor-footer .contacto .siguenos h6
+{
+    font-family: "Poppins", "Arial";
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: #1D6065;
+    line-height: 25.5px;
+    margin-bottom: 5px;
+}
+
+footer .contenedor-footer .contacto .siguenos span i
+{
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #57A049;
+    color: #57A049;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+footer .contenedor-footer .contacto .siguenos span i:hover
+{
+    color: #fff;
+    background-color: #57A049;
+}
+
+footer .contenedor-footer .informacion h5
+{
+    font-family: "Poppins", "Arial";
+    font-size: 1.5625rem;
+    font-weight: 500;
+    line-height: 37.5px;
+    color: #1A5E63;
+    padding-bottom: 5px;
+}
+
+footer .contenedor-footer .informacion .linea
+{
+    width: 155px;
+    height: 3px;
+    background-color: #57A048;
+    margin-bottom: 20px;
+}
+
+footer .contenedor-footer .informacion ul li
+{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer .contenedor-footer .informacion ul li a
+{
+    text-decoration: none;
+    color: #1D6065;
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 27px;
+    transition: all .3s ease;
+}
+footer .contenedor-footer .informacion ul li a:hover { color: #E55056; }
+
+footer .contenedor-footer .informacion img
+{
+    vertical-align: top;
+    width: 300px;
+}
+
+footer .pie-pagina
+{
+    background-color: #57A048;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    line-height: 21px;
+    font-weight: 400;
+}
