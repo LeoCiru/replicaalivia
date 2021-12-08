@@ -13,6 +13,47 @@ body
     font-family: "Poppins", "Arial";
 }
 
+.contenedor-cart
+{
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    z-index: 100;
+    position: fixed;
+    padding: 30px;
+    right: -300px;
+}
+
+.cart-activo
+{
+    right: 0px;
+    transition: all .3s ease;
+    box-shadow: 0px 10px 50px #6d6d6d;
+}
+
+.cart-oculto
+{
+    transition: all .3s ease;
+    right: -300px;
+}
+
+.contenedor-cart .contenedor-btn-cerrar { position: relative; }
+
+.contenedor-cart p
+{
+    display: inline-block;
+    margin-top: 50px;
+}
+.contenedor-cart .contenedor-btn-cerrar .btn-cerrar
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #889097;
+}
+
 /* ----------HEADER---------- */
 header
 {
@@ -58,6 +99,8 @@ header .sub-nav ul li
     margin: 0 15px;
     font-size: 1.7em;
 }
+
+header .sub-nav .btn-cart { cursor: pointer; }
 
 /* ---------- MAIN ---------- */
 main { padding-top: 87px; }

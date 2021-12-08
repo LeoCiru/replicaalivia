@@ -198,10 +198,10 @@ btnResetearFormulario.addEventListener('click', limpiarFormulario);
 //JQUERY
 //Función para que las demás funciones se ejecuten cuando carga el documento completamente
 $(document).ready(function(){
-  //Función para desplegar tabla de IMC debajo de la calculadora de IMC
-  $(".titulo-tabla-imc").click(function(){
-    $("table").slideToggle();
-  });
+//Función para desplegar tabla de IMC debajo de la calculadora de IMC
+$(".titulo-tabla-imc").click(function(){
+  $("table").slideToggle();
+});
 
   //Función para desplegar sidebar de carrito de compras
   $("#btn-cart").click(function(){

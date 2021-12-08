@@ -16,6 +16,12 @@
     <title>Contáctanos - Alivia2</title>
 </head>
 <body>
+    <div class="contenedor-cart">
+        <div class="contenedor-btn-cerrar">
+            <i class="fas fa-times btn-cerrar" id="btn-cerrar"></i>
+        </div>
+        <p>No hay elementos en el carro.</p>
+    </div>
     <header>
         <div class="logo-alivia-header">
             <img src="../img/imgs_index/logoAlivia-p4y1w7lkd96vzczhqdk8j4x1jtxqft642qd8pxtr1e.png" alt="Logo Alivia" />
@@ -31,7 +37,7 @@
 
         <div class="sub-nav">
             <ul>
-                <li><i class="fas fa-shopping-cart"></i></li>
+                <li><i class="fas fa-shopping-cart btn-cart" id="btn-cart"></i></li>
                 <li><i class="far fa-user-circle"></i></li>
             </ul>
         </div>
@@ -414,6 +420,7 @@
         </div>
     </footer>
 
-    <script src="../js/app_index.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/app_tienda.js"></script>
 </body>
 </html>
