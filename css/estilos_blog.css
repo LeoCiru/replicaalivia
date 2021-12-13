@@ -13,6 +13,131 @@ body
     font-family: "Poppins", "Arial";
 }
 
+/* Para cuadro de registro */
+.contenedor-registro
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.699);
+    z-index: 100000;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.contenedor-registro .cuadro-registro
+{
+    width: 350px;
+    height: 100vh;
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.contenedor-registro .cuadro-registro .contenedor-btn-cerrar-registro { position: relative; }
+.contenedor-registro .cuadro-registro .btn-cerrar-registro
+{
+    position: absolute;
+    left: 100%;
+    bottom: 100%;
+    color: #57A048;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.contenedor-registro .cuadro-registro .btn-cerrar-registro:hover { color: #F56C6C; }
+
+.contenedor-registro .cuadro-registro img
+{
+    vertical-align: top;
+    width: 200px;
+    align-self: center;
+}
+
+.contenedor-registro .cuadro-registro h5
+{
+    font-family: "Poppins", "Arial";
+    font-size: 1.125rem;
+    line-height: 27px;
+    color: #57A048;
+    text-align: center;
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+.contenedor-registro .cuadro-registro form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-registro .cuadro-registro form label
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #57A048;
+}
+
+.contenedor-registro .cuadro-registro form label input[type="text"],
+.contenedor-registro .cuadro-registro form label input[type="password"]
+{
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid rgb(80, 80, 80);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contenedor-registro .cuadro-registro form button
+{
+    background: none;
+    background-color: #57A048;
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+    width: 70%;
+    margin: 0 auto 20px auto;
+    font-family: "Poppins", "Arial";
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 15px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.contenedor-registro .cuadro-registro form button:hover { background-color: #F56C6C; }
+
+.contenedor-registro .cuadro-registro a
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 21px;
+    text-decoration: none;
+    color: #F56C6C;
+    text-align: center;
+}
+
+.contenedor-registro .cuadro-registro p
+{
+    font-family: "Poppins", "Arial";
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 21px;
+    text-decoration: none;
+    color: #57A048;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Para botón de subida del index */
 .contenedor-cart
 {
     width: 300px;
@@ -100,7 +225,8 @@ header .sub-nav ul li
     font-size: 1.7em;
 }
 
-header .sub-nav .btn-cart { cursor: pointer; }
+header .sub-nav .btn-cart,
+header .sub-nav .btn-registro{ cursor: pointer; }
 
 /* ---------- MAIN ---------- */
 main { padding-top: 87px; }
