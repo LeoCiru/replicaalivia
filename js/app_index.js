@@ -191,6 +191,7 @@ function limpiarFormulario()
   resultado.style.transition = "none";
 }
 
+//Función para mostrar/ocultar botón fijo para subida en página
 function mostrarBtnUp()
 {
   if(window.scrollY >= 290)
@@ -204,8 +205,6 @@ function mostrarBtnUp()
     btnUp.style.visibility = "hidden";
   }
 }
-
-
 
 //EVENTOS
 formularioImc.addEventListener('keyup', calculadorIMC);
