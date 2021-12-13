@@ -38,9 +38,12 @@ const doctores = new Swiper('.card-dr-certificado', {
 const /* btnCalcularImc = document.getElementById("btn-calcular-imc"), */
       btnResetearFormulario = document.getElementById("resetear-formulario"),
       formularioImc = document.getElementById("formulario-imc"),
-      resultado = document.getElementById("resultado");
+      resultado = document.getElementById("resultado"),
+      btnUp = document.getElementById("btnUp");
+
 
 //FUNCIONES
+//Calcular el IMC
 function calculadorIMC()
 {
   let pies = document.getElementById("pies").value,
@@ -188,12 +191,27 @@ function limpiarFormulario()
   resultado.style.transition = "none";
 }
 
+function mostrarBtnUp()
+{
+  if(window.scrollY >= 290)
+  {
+    btnUp.style.opacity = "1";
+    btnUp.style.visibility = "visible";
+  }
+  else if (window.scrollY <= 289)
+  {
+    btnUp.style.opacity = "0";
+    btnUp.style.visibility = "hidden";
+  }
+}
+
+
 
 //EVENTOS
 formularioImc.addEventListener('keyup', calculadorIMC);
 /* btnCalcularImc.addEventListener('click', calculadorIMC); */
 btnResetearFormulario.addEventListener('click', limpiarFormulario);
-
+window.addEventListener('scroll', mostrarBtnUp);
 
 //JQUERY
 //Función para que las demás funciones se ejecuten cuando carga el documento completamente
