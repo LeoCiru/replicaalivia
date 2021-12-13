@@ -214,15 +214,8 @@ formularioImc.addEventListener('keyup', calculadorIMC);
 /* btnCalcularImc.addEventListener('click', calculadorIMC); */
 btnResetearFormulario.addEventListener('click', limpiarFormulario);
 window.addEventListener('scroll', mostrarBtnUp);
-btnRegistro.addEventListener('click', function()
-{
-  contenedorRegistro.style.display = "block";
-});
-
-btnCerrarRegistro.addEventListener('click', function()
-{
-  contenedorRegistro.style.display = "none";
-});
+btnRegistro.addEventListener('click', () => contenedorRegistro.style.display = "block");
+btnCerrarRegistro.addEventListener('click', () => contenedorRegistro.style.display = "none");
 
 //JQUERY
 //Función para que las demás funciones se ejecuten cuando carga el documento completamente

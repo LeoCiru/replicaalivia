@@ -9,15 +9,8 @@ const btnRegistro = document.getElementById("btnRegistro"),
       contenedorRegistro = document.querySelector(".contenedor-registro");
 
 //EVENTOS
-btnRegistro.addEventListener('click', function()
-{
-  contenedorRegistro.style.display = "block";
-});
-
-btnCerrarRegistro.addEventListener('click', function()
-{
-  contenedorRegistro.style.display = "none";
-});
+btnRegistro.addEventListener('click', () => contenedorRegistro.style.display = "block");
+btnCerrarRegistro.addEventListener('click', () => contenedorRegistro.style.display = "none");
 
 //JQUERY
 //Función para que las demás funciones se ejecuten cuando carga el documento completamente
