@@ -3,6 +3,22 @@
 document.write('<script src="../js/wow.min.js"></script>');
 document.write('<script>new WOW().init();</script>');
 
+//VARIABLES Y CONSTANTES
+const btnRegistro = document.getElementById("btnRegistro"),
+      btnCerrarRegistro = document.getElementById("btnCerrarRegistro"),
+      contenedorRegistro = document.querySelector(".contenedor-registro");
+
+//EVENTOS
+btnRegistro.addEventListener('click', function()
+{
+  contenedorRegistro.style.display = "block";
+});
+
+btnCerrarRegistro.addEventListener('click', function()
+{
+  contenedorRegistro.style.display = "none";
+});
+
 //JQUERY
 //Función para que las demás funciones se ejecuten cuando carga el documento completamente
 $(document).ready(function(){

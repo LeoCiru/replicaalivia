@@ -16,6 +16,29 @@
     <title>Contáctanos - Alivia2</title>
 </head>
 <body>
+    <div class="contenedor-registro">
+        <div class="cuadro-registro">
+            <div class="contenedor-btn-cerrar-registro">
+                <i class="fas fa-times btn-cerrar-registro" id="btnCerrarRegistro"></i>
+            </div>
+            <img src="../img/imgs_index/logoAlivia.png" alt="Logo Alivia">
+            <h5>Accede a tu cuenta</h5>
+            <form>
+                <label>
+                    Nombre de usuario o correo electrónico <input type="text" id="nombreUsuario" required placeholder="Ej. Juan_Perez">
+                </label>
+                <label>
+                    Contraseña <br>
+                    <input type="password" id="contrasenaUsuario" required placeholder="Contraseña">
+                </label>
+
+                <button type="submit">Iniciar sesión</button>
+            </form>
+            <a href="#">¿Olvidaste la contraseña?</a>
+            <p>¿No tienes cuenta?</p>
+            <a href="#">Regístrate</a>
+        </div>
+    </div>
     <div class="contenedor-cart">
         <div class="contenedor-btn-cerrar">
             <i class="fas fa-times btn-cerrar" id="btn-cerrar"></i>
@@ -38,7 +61,7 @@
         <div class="sub-nav">
             <ul>
                 <li><i class="fas fa-shopping-cart btn-cart" id="btn-cart"></i></li>
-                <li><i class="far fa-user-circle"></i></li>
+                <li><i class="far fa-user-circle  btn-registro" id="btnRegistro"></i></li>
             </ul>
         </div>
     </header>
