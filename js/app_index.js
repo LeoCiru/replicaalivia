@@ -81,7 +81,7 @@ function calculadorIMC()
       let imc = (librasAKilos / estatura ** 2).toFixed(2);
       console.log(resultado);
 
-      if(pies < 0 && pulgadas < 0 && peso < 0)
+      if(pies < 0 || pulgadas < 0 || peso < 0)
       {
         resultado.style.backgroundColor = "red";
         resultado.style.color = "white";
@@ -126,7 +126,7 @@ function calculadorIMC()
         <span>(Delgadez Moderada)</span>
         `;
       }
-      else if(imc == 18.5 && imc <= 24.99)
+      else if(imc == 18.5 || imc <= 24.99)
       {
         console.log(imc);
         resultado.style.backgroundColor = "#DFF0D8";
@@ -137,7 +137,7 @@ function calculadorIMC()
         <span>(Peso Normal)</span>
         `;
       }
-      else if(imc == 25 && imc <= 29.99)
+      else if(imc == 25 || imc <= 29.99)
       {
         console.log(imc);
         resultado.style.backgroundColor = "#D9EDF7";
@@ -148,7 +148,7 @@ function calculadorIMC()
         <span>(Pre Obeso)</span>
         `;
       }
-      else if(imc == 30 && imc <= 35)
+      else if(imc == 30 || imc <= 35)
       {
         console.log(imc);
         resultado.style.backgroundColor = "#FCF8E3";
@@ -159,7 +159,7 @@ function calculadorIMC()
         <span>(Obeso Tipo 1)</span>
         `;
       }
-      else if(imc == 35 && imc <= 40)
+      else if(imc == 35 || imc <= 40)
       {
         console.log(imc);
         resultado.style.backgroundColor = "#FCF8E3";
